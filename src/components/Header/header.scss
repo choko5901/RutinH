@@ -1,0 +1,159 @@
+.main-header{
+  width: 100%;
+  z-index: 999;
+  position: relative;
+  height: 88px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+
+  .container{
+    max-width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    height: 88px;
+  }
+  
+  .header-lower{
+    position: relative;
+    transition: all .3s ease;
+    height: 100%;
+    .logo-box{
+      min-width: 200px;
+      padding: 24px 0;
+      position: relative;
+    }
+    .outer-box{
+      align-items: center;
+      display: flex;
+      height: 100%;
+      justify-content: flex-end;
+      padding: 10px 0;
+      position: relative;
+      .header-btn-wapper{
+        display: flex;
+        gap: 10px;
+        .header-btn-style{
+          width: 80px;
+          height: 36px;
+          color: #fff;
+          border-radius: 5px;
+          padding: 10px 25px;
+          font-weight: 500;
+          background: transparent;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          position: relative;
+          display: inline-block;
+          box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+          7px 7px 20px 0px rgba(0,0,0,.1),
+          4px 4px 5px 0px rgba(0,0,0,.1);
+          outline: none;
+        }
+        .sign-btn{
+          background: rgb(0,172,238);
+          background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(28, 144, 251, 1) 100%);
+          width: 80px;
+          height: 36px;
+          line-height: 38px;
+          padding: 0;
+          border: none;
+        }
+        .sign-btn:hover{
+          background: transparent;
+          transition: 1s ease;
+          box-shadow: none;
+          color: rgba(2,126,251,1);
+          border: solid 1px rgb(0,172,238);
+       }
+      }
+    }
+  }
+  .main-box{
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+    transition: all .3s ease;
+    height: 100%;
+    .nav-wapper{
+      align-items: center;
+      display: flex;
+      position: relative;
+    }
+  }
+  .logo{
+    display: block;
+    position: relative;
+    a{
+        display: inline-block;
+        outline: 0;
+        text-decoration: none;
+    }
+  }
+}
+
+header {
+  display: block;
+  .logo_title{
+    font-size:24px;
+    font-weight: 900;
+    color: black;
+    .H_style{
+      margin-left: 5px;
+      color: #1c90fb;
+    }
+  }
+}
+
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.main-list{
+  position: relative;
+  .navigation{
+    display:  flex;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    li{
+      float: left;
+      margin-right: 25px;
+      padding: 25px 0;
+      position: relative;
+      transition: all .3s ease;
+      &.current{
+        a{
+          background-color:#f1f6f9;
+          color :#1c90fb;
+        }
+      }
+      a{
+        border: 1px solid transparent;
+        border-radius:6px;
+        padding: 10px 14px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1;
+        position: relative;
+        z-index: 1;
+        outline: 0;
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+ul{
+  li{
+    list-style-type: none;
+  }
+}
+
+
