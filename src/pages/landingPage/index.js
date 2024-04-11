@@ -10,8 +10,8 @@ function LandingPage() {
   return (
     <>
       <IntroPage></IntroPage>
-      {/* <About></About>
-      <OurService></OurService>
+      <About></About>
+      {/* <OurService></OurService>
       <Price></Price>
       <ContactUs></ContactUs> */}
     </>

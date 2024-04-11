@@ -5,7 +5,6 @@ import LandingPage from "./pages/landingPage";
 
 function App() {
   return (
-    <div className="App">
       <HashRouter>
         <Routes> 
           <Route path="/" element={<Layout />} >
@@ -13,7 +12,6 @@ function App() {
           </Route>
         </Routes>
       </HashRouter>
-    </div>
   );
 }
 

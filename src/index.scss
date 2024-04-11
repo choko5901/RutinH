@@ -1,0 +1,50 @@
+.col_half{
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.btn-style{
+  width: 80px;
+  height: 36px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.mr0{
+  margin: 0;
+}
+
+.mr_b_10{
+  margin-bottom: 10px;
+}
+
+.mr_b_20{
+  margin-bottom: 20px;
+}
+
+.mr_b_50{
+  margin-bottom: 50px;
+}
+
+body{
+  margin: 0;
+}
+
+.text-center{
+  text-align: center !important
+}
+
+.justify-content-center{
+  justify-content: center !important;
+}

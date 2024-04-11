@@ -6,7 +6,7 @@ import Header from "../Header/Header"
 function Layout(props){
 
     return(
-        <div>
+        <div className="layout">
             <Header/>
                 <Outlet/>
             {/* <Footer/> */}

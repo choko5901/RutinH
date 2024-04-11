@@ -10,7 +10,7 @@ function Header(){
                         <div className='logo-box'>
                             <div className='logo'>
                                 <a href='/' aria-current="page">
-                                    <p className='logo_title'>LUTIN<span className='H_style'>H</span></p>
+                                    <p className='logo_title'>RUTIN<span className='H_style'>H</span></p>
                                 </a>
                             </div>
                         </div>

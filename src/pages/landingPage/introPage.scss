@@ -1,8 +1,94 @@
-.hero_section{
-  padding: 80px 0 100px;
+.home_section{
+  padding: 130px 0 200px;
   .main_img{
     width: 100%;
     height: 760px;
     transition: opacity 0.5s ease;
+  }
+  .home_content_p1{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    margin: 0;
+    margin-bottom: 40px;
+    
+  }
+
+  .main_title{
+    font-size: 80px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 40px;
+    .main_H_style{
+      margin-left: 5px;
+      color: #1c90fb;
+    }
+  }
+
+  .main_sub_title{
+    color: #575757;
+  }
+
+  .main_btn_wapper{
+    display: flex;
+    gap: 15px;
+    .btn_go_demo{
+      background-color: #4dccc6;
+      background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+      line-height: 38px;
+      padding: 0;
+      border: none;
+      width: 150px;
+    }
+  
+    .btn_buy_now{
+      background-color: rgb(255,151,0);
+      background-image: linear-gradient(315deg, #bde0fe 0%, #a2d2ff 74%);
+      line-height: 38px;
+      padding: 0;
+      border: none;
+      width: 150px;
+    }
+  }
+
+
+
+  .home_image_wrap{
+    padding: 60px;
+    position: relative;
+    z-index: 1;
+    &::after{
+      content: "";
+      height: 85%;
+      position: absolute;
+      width: 85%;
+      z-index: -1;
+      box-sizing: border-box;
+      background-color: #c1e3de;
+      bottom: 0;
+      right: 0;
+    
+
+    }
+    &::before{
+      content: "";
+        height: 85%;
+        position: absolute;
+        width: 85%;
+        z-index: -1;
+        box-sizing: border-box;
+        background-color: #fef3de;
+        left: 0;
+        top: 0;
+    }
+
+    .main-img{
+      height: 600px;
+      max-width: 100%;
+      border: none;
+      border-radius: 150px 0 150px 0;
+      vertical-align: middle;
+    
+    }
   }
 }

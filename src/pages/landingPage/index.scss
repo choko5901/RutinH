@@ -7,8 +7,22 @@
 
 .row{
   margin: -15px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .align-items-center{
   align-items: center !important
+}
+
+.fs18{
+  font-size: 18px;
+}
+
+.pd16{
+  padding: 16px
+}
+
+.pd15{
+  padding: 15px
 }
